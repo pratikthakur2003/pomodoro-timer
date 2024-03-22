@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <span class="name"><h1>POMODORO TIMER</h1></span>
+      <div class="timer-content">
+        <div class="set-timer" id="set-timer">
+          <h2>SET TIME :</h2>
+          <input type="number" class="set-hours" id="set-hours" />
+          <h3>HRS</h3>
+          <input type="number" class="set-mins" id="set-mins" />
+          <h3>MINS</h3>
+          <input type="number" class="set-secs" id="set-secs" />
+          <h3>SECS</h3>
+          <div class="set-btn btns" id="set-btn">SET</div>
+        </div>
+        <div class="show-timer" id="show-timer">
+          <span class="hrs" id="hrs">00</span>
+          <h2>:</h2>
+          <span class="mins" id="mins">25</span>
+          <h2>:</h2>
+          <span class="secs" id="secs">00</span>
+        </div>
+        <div class="timer-btns" id="timer-btns">
+          <div class="start-stop-btn btns" id="start-stop-btn">START</div>
+          <div class="clear-btn btns" id="clear-btn">CLEAR</div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
